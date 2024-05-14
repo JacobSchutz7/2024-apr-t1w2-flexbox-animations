@@ -8,3 +8,8 @@
   - Flexbox
   - Pseudoclasses
   - Animations
+
+  ## Wireframes
+  ![Wireframe of index page Desktop version](link here)
+
+  
