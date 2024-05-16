@@ -51,4 +51,36 @@ nav a {
 	padding: 0.5rem;
 	margin-left: 0.5rem;
 	margin-right: 0.5rem;
+	border-radius: 15%;
+}
+
+.training_option {
+	margin-top: 15dvw;
+	background-color: var(--orange);
+	padding: 1rem;
+	border-radius: 5%;
+}
+
+.training_option img {
+	width: 60dvw;
+	border-radius: 5%;
+}
+
+@media screen and (min-width: 600px) {
+	main {
+		display:flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 20px;
+		justify-content: space-between;
+	}
+
+	.training_option {
+		margin-top: 5dvw;
+	}
+
+	.training_option img {
+		width: 25dvw;
+		height: 20dvh;
+	}
 }
